@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Aposta Inteligente - Mega-Sena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎰 Mega-Sena</h1>
+        <p class="subtitle">Gerador de Aposta Inteligente</p>
+
+        <div class="info-box">
+            <strong>Como funciona:</strong> Esta ferramenta analisa o histórico de 2.985 concursos da Mega-Sena e gera uma aposta inteligente usando uma estratégia de segmentação por faixas, priorizando números com maior frequência histórica.
+        </div>
+
+        <button onclick="gerar()" id="btnGerar">Gerar Aposta Inteligente</button>
+
+        <div id="resultado"></div>
+
+        <div class="numeros-container" id="numerosContainer"></div>
+
+        <div class="status" id="status">
+            Clique no botão para gerar uma aposta inteligente
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
